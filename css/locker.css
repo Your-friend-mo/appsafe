@@ -1,0 +1,269 @@
+/* AppSafe Modern Content Locker - Neon Green & Dark Aesthetic */
+.appsafe-modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  z-index: 999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  animation: asFadeIn 0.25s ease-out;
+  box-sizing: border-box;
+}
+
+@keyframes asFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes asSlideUp {
+  from { opacity: 0; transform: translateY(20px) scale(0.97); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.appsafe-modal-card {
+  background: #15151e;
+  border-radius: 18px;
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.7), 0 0 30px rgba(0, 255, 136, 0.15);
+  max-width: 500px;
+  width: 100%;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: asSlideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  font-family: 'Exo 2', -apple-system, BlinkMacSystemFont, sans-serif;
+  border: 1px solid rgba(0, 255, 136, 0.25);
+  color: #ffffff;
+  box-sizing: border-box;
+}
+
+.appsafe-modal-header {
+  padding: 24px 20px 18px 20px;
+  text-align: center;
+  background: #111116;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  position: relative;
+}
+
+.appsafe-modal-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.06);
+  color: #999;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.appsafe-modal-close:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #00ff88;
+  border-color: #00ff88;
+}
+
+.appsafe-badge-lock {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(0, 255, 136, 0.12);
+  color: #00ff88;
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 6px 14px;
+  border-radius: 9999px;
+  margin-bottom: 12px;
+  border: 1px solid rgba(0, 255, 136, 0.3);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.appsafe-modal-title {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 0 8px 0;
+  line-height: 1.3;
+}
+
+.appsafe-modal-subtitle {
+  color: #999999;
+  font-size: 0.82rem;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.appsafe-modal-body {
+  padding: 18px 20px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.appsafe-step-indicator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 8px 14px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  font-size: 0.78rem;
+  color: #aaa;
+}
+
+.appsafe-step-indicator b {
+  color: #00ff88;
+}
+
+.appsafe-offers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.appsafe-offer-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 12px;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.22s ease;
+  cursor: pointer;
+}
+
+.appsafe-offer-item:hover {
+  background: rgba(0, 255, 136, 0.06);
+  border-color: rgba(0, 255, 136, 0.4);
+  transform: translateY(-2px);
+  text-decoration: none;
+  color: inherit;
+}
+
+.appsafe-offer-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 9px;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.appsafe-offer-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.appsafe-offer-name {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 3px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.appsafe-offer-desc {
+  font-size: 0.76rem;
+  color: #888888;
+  margin: 0;
+  line-height: 1.4;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.appsafe-offer-btn {
+  background: #00ff88;
+  color: #0a0a0f;
+  font-size: 0.75rem;
+  font-weight: 800;
+  padding: 7px 14px;
+  border-radius: 6px;
+  flex-shrink: 0;
+  letter-spacing: 0.05em;
+  transition: all 0.2s ease;
+}
+
+.appsafe-offer-item:hover .appsafe-offer-btn {
+  background: #2aff9d;
+  box-shadow: 0 0 12px rgba(0, 255, 136, 0.4);
+}
+
+.appsafe-loading-offers {
+  text-align: center;
+  padding: 30px 10px;
+  color: #888;
+  font-size: 0.85rem;
+}
+
+.appsafe-spinner {
+  width: 32px;
+  height: 32px;
+  border: 3px solid rgba(0, 255, 136, 0.2);
+  border-top-color: #00ff88;
+  border-radius: 50%;
+  animation: asSpin 0.8s linear infinite;
+  margin: 0 auto 12px auto;
+}
+
+@keyframes asSpin {
+  to { transform: rotate(360deg); }
+}
+
+.appsafe-modal-footer {
+  padding: 16px 20px 20px 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  background: #111116;
+  text-align: center;
+}
+
+.appsafe-check-btn {
+  width: 100%;
+  background: #00ff88;
+  color: #0a0a0f;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 800;
+  cursor: pointer;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.appsafe-check-btn:hover {
+  background: #33ff9e;
+  box-shadow: 0 0 16px rgba(0, 255, 136, 0.5);
+}
+
+.appsafe-check-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.appsafe-footer-note {
+  font-size: 0.68rem;
+  color: #777;
+  margin: 10px 0 0 0;
+}

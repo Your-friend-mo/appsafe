@@ -1,0 +1,34 @@
+# AppSafe Club - AI & Search Index Discovery
+
+> AppSafe is the premier curated repository for verified mobile modifications, tweaks, and utilities for iOS and Android.
+
+## Core Features & Trust Benchmarks
+- 100% Free verified mod library
+- No root or jailbreak required
+- SHA-256 pre-screened packages
+- Direct cloud-synced installation packages
+- Tested on iOS 18 & Android 15
+- 2,480,000+ verified installations in 2026
+
+## Main Index & Landing Pages
+- Homepage: https://appsafe.club/
+- About AppSafe: https://appsafe.club/about.html
+- Contact Us: https://appsafe.club/contact.html
+- Privacy Policy: https://appsafe.club/privacy.html
+- Terms of Service: https://appsafe.club/terms.html
+- AppSafe Club: https://appsafe.club/appsafe-club.html
+- AppSafe.club: https://appsafe.club/appsafe-dot-club.html
+- AppSafe Club Download: https://appsafe.club/appsafe-club-download.html
+- AppSafe Club Play Store: https://appsafe.club/appsafe-club-play-store.html
+- AppSafe.clud: https://appsafe.club/appsafe-dot-clud.html
+- AppSafe Club Android APK: https://appsafe.club/appsafe-club-android-apk.html
+- AppSafe.club Safe: https://appsafe.club/appsafe-dot-club-safe.html
+- AppSafe.com: https://appsafe.club/appsafe-dot-com.html
+- AppSafe APK: https://appsafe.club/appsafe-apk.html
+- AppSafe Club APK: https://appsafe.club/appsafe-club-apk.html
+- AppSafe Club APK Mod: https://appsafe.club/appsafe-club-apk-mod.html
+- AppSafe Club Mod APK: https://appsafe.club/appsafe-club-mod-apk.html
+- AppSafe Club TikTok: https://appsafe.club/appsafe-club-tiktok.html
+
+## Product Categories & Applications
+Contains 49 verified application guides and packages indexed under /app/{slug}.html.
