@@ -12,23 +12,23 @@
 
 ## Main Index & Landing Pages
 - Homepage: https://appsafe.comee.online/
-- About AppSafe: https://appsafe.comee.online/about.html
-- Contact Us: https://appsafe.comee.online/contact.html
-- Privacy Policy: https://appsafe.comee.online/privacy.html
-- Terms of Service: https://appsafe.comee.online/terms.html
-- AppSafe Club: https://appsafe.comee.online/appsafe-club.html
-- AppSafe.club: https://appsafe.comee.online/appsafe-dot-club.html
-- AppSafe Club Download: https://appsafe.comee.online/appsafe-club-download.html
-- AppSafe Club Play Store: https://appsafe.comee.online/appsafe-club-play-store.html
-- AppSafe.clud: https://appsafe.comee.online/appsafe-dot-clud.html
-- AppSafe Club Android APK: https://appsafe.comee.online/appsafe-club-android-apk.html
-- AppSafe.club Safe: https://appsafe.comee.online/appsafe-dot-club-safe.html
-- AppSafe.com: https://appsafe.comee.online/appsafe-dot-com.html
-- AppSafe APK: https://appsafe.comee.online/appsafe-apk.html
-- AppSafe Club APK: https://appsafe.comee.online/appsafe-club-apk.html
-- AppSafe Club APK Mod: https://appsafe.comee.online/appsafe-club-apk-mod.html
-- AppSafe Club Mod APK: https://appsafe.comee.online/appsafe-club-mod-apk.html
-- AppSafe Club TikTok: https://appsafe.comee.online/appsafe-club-tiktok.html
+- About AppSafe: https://appsafe.comee.online/about
+- Contact Us: https://appsafe.comee.online/contact
+- Privacy Policy: https://appsafe.comee.online/privacy
+- Terms of Service: https://appsafe.comee.online/terms
+- AppSafe Club: https://appsafe.comee.online/appsafe-club
+- AppSafe.club: https://appsafe.comee.online/appsafe-dot-club
+- AppSafe Club Download: https://appsafe.comee.online/appsafe-club-download
+- AppSafe Club Play Store: https://appsafe.comee.online/appsafe-club-play-store
+- AppSafe.clud: https://appsafe.comee.online/appsafe-dot-clud
+- AppSafe Club Android APK: https://appsafe.comee.online/appsafe-club-android-apk
+- AppSafe.club Safe: https://appsafe.comee.online/appsafe-dot-club-safe
+- AppSafe.com: https://appsafe.comee.online/appsafe-dot-com
+- AppSafe APK: https://appsafe.comee.online/appsafe-apk
+- AppSafe Club APK: https://appsafe.comee.online/appsafe-club-apk
+- AppSafe Club APK Mod: https://appsafe.comee.online/appsafe-club-apk-mod
+- AppSafe Club Mod APK: https://appsafe.comee.online/appsafe-club-mod-apk
+- AppSafe Club TikTok: https://appsafe.comee.online/appsafe-club-tiktok
 
 ## Product Categories & Applications
 Contains 49 verified application guides and packages indexed under /app/{slug}.html.
