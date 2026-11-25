@@ -25,4 +25,4 @@ Allow: /
 User-agent: anthropic-ai
 Allow: /
 
-Sitemap: https://appsafe.club/sitemap.xml
+Sitemap: https://appsafe.comee.online/sitemap.xml
