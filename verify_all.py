@@ -113,13 +113,33 @@ def audit_file(fpath, label, expected_keyword=None):
     parser = AuditParser()
     parser.feed(content)
 
-    # 1. Keyword count (exact 30 if expected)
+    # 1. Keyword density (~2% of visible text)
     if expected_keyword:
-        kw_count = len(re.findall(re.escape(expected_keyword), content, re.IGNORECASE))
-        if kw_count == 30:
-            successes.append(f"{label}: '{expected_keyword}' count == 30")
+        class _TextExt(HTMLParser):
+            def __init__(self):
+                super().__init__()
+                self.skip = False
+                self.parts = []
+            def handle_starttag(self, tag, attrs):
+                if tag.lower() in ("script", "style", "svg"):
+                    self.skip = True
+            def handle_endtag(self, tag):
+                if tag.lower() in ("script", "style", "svg"):
+                    self.skip = False
+            def handle_data(self, data):
+                if not self.skip:
+                    self.parts.append(data)
+        te = _TextExt()
+        te.feed(content)
+        vis_txt = " ".join(te.parts)
+        total_words = len(re.findall(r"\b\w+\b", vis_txt))
+        kw_words = max(1, len(re.findall(r"\b\w+\b", expected_keyword)))
+        kw_count = len(re.findall(re.escape(expected_keyword), vis_txt, re.IGNORECASE))
+        density = (kw_count * kw_words / total_words * 100.0) if total_words > 0 else 0.0
+        if 1.80 <= density <= 2.20:
+            successes.append(f"{label}: '{expected_keyword}' density == {density:.2f}% ({kw_count}x / {total_words} words)")
         else:
-            errors.append(f"{label}: '{expected_keyword}' count expected 30, got {kw_count}")
+            errors.append(f"{label}: '{expected_keyword}' density expected 1.80%-2.20%, got {density:.2f}% ({kw_count}x / {total_words} words)")
 
     # 2. H1 Check (exactly 1)
     if parser.h1_count == 1:
@@ -166,10 +186,10 @@ def audit_file(fpath, label, expected_keyword=None):
         errors.append(f"{label}: Meta Description missing")
 
     # 8. Canonical URL check
-    if parser.canonical:
+    if parser.canonical and parser.canonical.startswith("https://appsafe.comee.online/"):
         successes.append(f"{label}: Canonical URL set ({parser.canonical})")
     else:
-        errors.append(f"{label}: Canonical URL missing")
+        errors.append(f"{label}: Canonical URL missing or wrong domain ({parser.canonical})")
 
     # 9. Social Media Tags (OG Title & Desc)
     if parser.og_title and parser.og_desc:
@@ -193,7 +213,7 @@ print("--- Auditing index.html ---")
 audit_file(os.path.join(BASE_DIR, "index.html"), "index.html", "appsafe")
 
 # --- Audit Keyword Pages ---
-print("\n--- Auditing 13 Keyword Pages ---")
+print("\n--- Auditing 23 Keyword Pages ---")
 keyword_configs = [
     ("appsafe-club.html", "appsafe club"),
     ("appsafe-dot-club.html", "appsafe.club"),
@@ -208,13 +228,23 @@ keyword_configs = [
     ("appsafe-club-apk-mod.html", "appsafe club apk mod"),
     ("appsafe-club-mod-apk.html", "appsafe club mod apk"),
     ("appsafe-club-tiktok.html", "appsafe club tiktok"),
+    ("popular-mod-games.html", "popular mod games"),
+    ("ios-tweaks-free.html", "ios tweaks free"),
+    ("android-mod-apk-2026.html", "android mod apk 2026"),
+    ("roblox-mod-menu-download.html", "roblox mod menu"),
+    ("minecraft-pe-mod-apk.html", "minecraft pe mod"),
+    ("subway-surfers-mod-apk.html", "subway surfers hack"),
+    ("pubg-mobile-mod-menu-apk.html", "pubg mobile mod menu"),
+    ("clash-of-clans-mod-apk.html", "clash of clans hack"),
+    ("monopoly-go-free-dice.html", "monopoly go hack"),
+    ("gta-san-andreas-mod-apk.html", "gta san andreas mod"),
 ]
 
 for fn, kw in keyword_configs:
     audit_file(os.path.join(BASE_DIR, fn), fn, kw)
 
 # --- Audit Product Pages ---
-print("\n--- Auditing 49 Product Pages ---")
+print(f"\n--- Auditing {len(products)} Product Pages ---")
 for p in products:
     slug = p["slug"]
     title = p["title"]
@@ -258,10 +288,10 @@ if os.path.exists(sitemap_file):
     with open(sitemap_file, "r", encoding="utf-8") as f:
         sm = f.read()
     loc_count = len(re.findall(r"<loc>", sm))
-    if loc_count == 67:
-        successes.append(f"sitemap.xml verified with exactly 67 URLs")
+    if loc_count == 89:
+        successes.append(f"sitemap.xml verified with exactly 89 URLs")
     else:
-        errors.append(f"sitemap.xml expected 67 URLs, found {loc_count}")
+        errors.append(f"sitemap.xml expected 89 URLs, found {loc_count}")
 else:
     errors.append("sitemap.xml missing")
 

@@ -1,34 +1,44 @@
-# AppSafe Club - AI & Search Index Discovery
+# AppSafe - AI & Search Index Discovery
 
-> AppSafe is the premier curated repository for verified mobile modifications, tweaks, and utilities for iOS and Android.
+> AppSafe is the premier curated repository for verified mobile modifications, tweaks, popular mod games, and utilities for iOS and Android.
 
 ## Core Features & Trust Benchmarks
-- 100% Free verified mod library
+- 100% Free verified mod library (61 applications & games)
 - No root or jailbreak required
 - SHA-256 pre-screened packages
 - Direct cloud-synced installation packages
 - Tested on iOS 18 & Android 15
-- 2,480,000+ verified installations in 2026
+- 2,850,000+ verified installations in 2026
 
 ## Main Index & Landing Pages
 - Homepage: https://appsafe.comee.online/
-- About AppSafe: https://appsafe.comee.online/about
-- Contact Us: https://appsafe.comee.online/contact
-- Privacy Policy: https://appsafe.comee.online/privacy
-- Terms of Service: https://appsafe.comee.online/terms
-- AppSafe Club: https://appsafe.comee.online/appsafe-club
-- AppSafe.club: https://appsafe.comee.online/appsafe-dot-club
-- AppSafe Club Download: https://appsafe.comee.online/appsafe-club-download
-- AppSafe Club Play Store: https://appsafe.comee.online/appsafe-club-play-store
-- AppSafe.clud: https://appsafe.comee.online/appsafe-dot-clud
-- AppSafe Club Android APK: https://appsafe.comee.online/appsafe-club-android-apk
-- AppSafe.club Safe: https://appsafe.comee.online/appsafe-dot-club-safe
-- AppSafe.com: https://appsafe.comee.online/appsafe-dot-com
-- AppSafe APK: https://appsafe.comee.online/appsafe-apk
-- AppSafe Club APK: https://appsafe.comee.online/appsafe-club-apk
-- AppSafe Club APK Mod: https://appsafe.comee.online/appsafe-club-apk-mod
-- AppSafe Club Mod APK: https://appsafe.comee.online/appsafe-club-mod-apk
-- AppSafe Club TikTok: https://appsafe.comee.online/appsafe-club-tiktok
+- About AppSafe: https://appsafe.comee.online/about.html
+- Contact Us: https://appsafe.comee.online/contact.html
+- Privacy Policy: https://appsafe.comee.online/privacy.html
+- Terms of Service: https://appsafe.comee.online/terms.html
+- AppSafe Club: https://appsafe.comee.online/appsafe-club.html
+- AppSafe.club: https://appsafe.comee.online/appsafe-dot-club.html
+- AppSafe Club Download: https://appsafe.comee.online/appsafe-club-download.html
+- AppSafe Club Play Store: https://appsafe.comee.online/appsafe-club-play-store.html
+- AppSafe.clud: https://appsafe.comee.online/appsafe-dot-clud.html
+- AppSafe Club Android APK: https://appsafe.comee.online/appsafe-club-android-apk.html
+- AppSafe.club Safe: https://appsafe.comee.online/appsafe-dot-club-safe.html
+- AppSafe.com: https://appsafe.comee.online/appsafe-dot-com.html
+- AppSafe APK: https://appsafe.comee.online/appsafe-apk.html
+- AppSafe Club APK: https://appsafe.comee.online/appsafe-club-apk.html
+- AppSafe Club APK Mod: https://appsafe.comee.online/appsafe-club-apk-mod.html
+- AppSafe Club Mod APK: https://appsafe.comee.online/appsafe-club-mod-apk.html
+- AppSafe Club TikTok: https://appsafe.comee.online/appsafe-club-tiktok.html
+- Popular Mod Games: https://appsafe.comee.online/popular-mod-games.html
+- iOS Tweaks Free: https://appsafe.comee.online/ios-tweaks-free.html
+- Android Mod APK 2026: https://appsafe.comee.online/android-mod-apk-2026.html
+- Roblox Mod Menu: https://appsafe.comee.online/roblox-mod-menu-download.html
+- Minecraft PE Mod: https://appsafe.comee.online/minecraft-pe-mod-apk.html
+- Subway Surfers Hack: https://appsafe.comee.online/subway-surfers-mod-apk.html
+- PUBG Mobile Mod Menu: https://appsafe.comee.online/pubg-mobile-mod-menu-apk.html
+- Clash of Clans Hack: https://appsafe.comee.online/clash-of-clans-mod-apk.html
+- Monopoly GO Hack: https://appsafe.comee.online/monopoly-go-free-dice.html
+- GTA San Andreas Mod: https://appsafe.comee.online/gta-san-andreas-mod-apk.html
 
 ## Product Categories & Applications
-Contains 49 verified application guides and packages indexed under /app/{slug}.html.
+Contains 61 verified application guides and packages indexed under /app/{slug}.html.

@@ -30,7 +30,19 @@
     'stumble-guys-hack': 'fall guys multiplayer knockout obstacle royale stumble',
     'tiktok-plus-plus': 'social video sharing musical ly douyin tt',
     'google-play-plus-plus': 'android playstore market apps google gplay store',
-    'app-store-plus-plus': 'ios appstore itunes apple appstore plus'
+    'app-store-plus-plus': 'ios appstore itunes apple appstore plus',
+    'roblox-mod-menu': 'rbx robux fly mod menu studio avatar',
+    'subway-surfers-hack': 'sybo runner coins keys hoverboard surf',
+    'minecraft-pe-mod': 'mcpe mojang pocket edition bedrock skins god mode crafting',
+    'pubg-mobile-mod-menu': 'playerunknown battlegrounds uc aimbot esp krafton tencent shooter',
+    'clash-royale-hack': 'supercell cr gems gold cards arena deck',
+    'clash-of-clans-hack': 'supercell coc gems elixir gold village town hall',
+    'monopoly-go-hack': 'scopely dice rolls board cash stickers',
+    'efootball-2026-mod': 'konami pes soccer football coins dream team',
+    'fc-mobile-26-hack': 'ea sports fifa fc points gems soccer football',
+    'genshin-impact-mod': 'hoyoverse mihoyo primogems anime rpg open world',
+    'mobile-legends-hack': 'moonton mlbb bang bang moba diamonds skins',
+    'gta-san-andreas-mod': 'rockstar grand theft auto cj cheats money open world'
   };
 
   function removeDiacritics(str) {
